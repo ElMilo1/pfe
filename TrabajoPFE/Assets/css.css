@@ -1,0 +1,17 @@
+.blanco{
+    background-color: aliceblue;
+    color: black;
+}
+.negro{
+    background-color: rgb(53, 21, 59);
+    color: rgb(224, 236, 168);
+}
+.small{
+    font-size: 15px;
+}
+.medium{
+    font-size: 25px;
+}
+.large {
+    font-size: 40px;
+}

@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Assets/css.css">
 </head>
-<body>
-    <form>
+<body class="negro"
+    <form class="mediano">
+        <button type="button" id="btnContraste" value="c">Contraste</button>
+        <button type="button" id="btnFuente" value="1">Fuente</button><br>
         <label for="pnombre">Nombre:</label><br>
         <input type="text" id="pnombre" name="pnombre"><br>
         <label for="apellidos">Apellido:</label><br>
@@ -17,17 +20,14 @@
         <label for="fechan">Indique fecha nacimiento.</label><br>
         <input type="date" id="fechan" name="fechan"><br>
         <p>Indique su sexo:</p>
-        <input type="radio" id="man" name="sexo">
+        <input type="radio" id="man" name="sexo" value="Masculino">
         <label for="man">Masculino.</label>
-        <input type="radio" id="woman" name="sexo">
+        <input type="radio" id="woman" name="sexo" value="Femenino">
         <label for="womam">Femenino.</label>
-        <input type="radio" id="other" name="sexo">
+        <input type="radio" id="other" name="sexo" value="Otro">
         <label for="other">Otro.</label><br>
         <button type="button" id="BtnRegistro">Registrar</button>
-        <span id="sBtnAccion">
-
-        </span>
     </form>
-    <script src="js.js"></script>
+    <script src="Assets/script.js"></script>
 </body>
 </html>
